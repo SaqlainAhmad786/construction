@@ -205,10 +205,11 @@
     <!--==============================
 	Header Area
 ==============================-->
-    <header class="th-header header-layout2 " style="background-color: var(--black-color);">
+    <header class="th-header header-layout2">
         <div class="sticky-wrapper">
             <!-- Main Menu Area -->
-            <div class="menu-area">
+            <div class="menu-area bg-black2 background-image"
+                style="background-image: url(&quot;assets/img/bg/award-bg-1-1.png&quot;);">
                 <div class="container">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
@@ -347,7 +348,7 @@ Hero Area
                 <div class="col-xl-5">
                     <div class="hero-thumb9-1">
                         <div class="img1">
-                            <img src="assets/img/hero/hero_thumb_9_1.jpg" alt="img">
+                            <img src="assets/img/hero/hero_thumb_9_1.png" alt="img">
                         </div>
                     </div>
                 </div>
@@ -378,9 +379,9 @@ Hero Area
                 <div class="col-xl-12">
                     <div class="title-area text-center">
                         <!-- <span class="sub-title4">Our Features</span> -->
-                        <h2 class="sec-title d-flex align-items-center justify-content-center g-2"><i class="fa fa-star"
-                                style="font-size: 32px;"></i>OUR EXPERTISE<i class="fa fa-star"
-                                style="font-size: 32px;"></i></h2>
+                        <h2 class="sec-title d-flex align-items-center justify-content-center"
+                            style="color: black; gap: 8px;"><i class="fa fa-medal" style="font-size: 32px;"></i>OUR
+                            EXPERTISE<i class="fa fa-medal" style="font-size: 32px;"></i></h2>
                     </div>
                 </div>
             </div>
@@ -505,8 +506,9 @@ About Area
                 </div>
                 <div class="col-xl-6">
                     <div class="title-area mb-15">
-                        <span class="sub-title4">About Us</span>
-                        <h2 class="sec-title">Building the Future of Residential Living</h2>
+                        <!-- <span class="sub-title4">About Us</span> -->
+                        <h2 class="sec-title"><i class="fa-solid fa-users"></i> About Us</h2>
+                        <!-- <h2 class="sec-title">Building the Future of Residential Living</h2> -->
                     </div>
                     <p class="sec-text mb-20" style="color: rgba(255, 255, 255, 0.7);">At Mindscape Constructions, we
                         believe that every project is more than just a structure — it’s a story waiting to be built.
@@ -580,14 +582,17 @@ Property Area 4
             <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
         </div>
         <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-md-7">
-                    <div class="title-area">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-12">
+                    <div class="title-area text-center">
                         <span class="sub-title4">Our Projects</span>
-                        <h2 class="sec-title">Our Latest Residential Projects <i class="fa-solid fa-helmet-safety"></i></h2>
+                        <h2 class="sec-title" style="color: black;"><i class="fa-solid fa-helmet-safety"></i> Our Latest
+                            Residential Projects
+                            <i class="fa-solid fa-helmet-safety"></i>
+                        </h2>
                     </div>
                 </div>
-                <div class="col-auto">
+                <!-- <div class="col-auto">
                     <div class="sec-btn">
                         <div class="icon-box">
                             <button data-slider-prev="#projectSlider8"
@@ -598,7 +603,7 @@ Property Area 4
                                     src="assets/img/icon/arrow-right.svg" alt=""></button>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="container-fluid p-lg-0">
@@ -789,17 +794,18 @@ Property Area 2
     <section class="space bg-smoke overflow-hidden property-area-5" id="service-sec">
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-lg-8">
-                    <div class="title-area">
+                <div class="col-12">
+                    <div class="title-area text-center">
                         <span class="sub-title4">Our Services</span>
-                        <h2 class="sec-title">We Provide Excellent Service <i class="fa-solid fa-thumbs-up"></i></h2>
+                        <h2 class="sec-title" style="color: black;"><i class="fa-solid fa-thumbs-up"></i> We Provide
+                            Excellent Service <i class="fa-solid fa-thumbs-up"></i></h2>
                     </div>
                 </div>
-                <div class="col-auto">
+                <!-- <div class="col-auto">
                     <div class="sec-btn">
                         <a href="service.html" class="th-btn style3 th-btn-icon">View All Services</a>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="row gy-4">
                 <div class="col-xl-4 col-lg-6">
@@ -956,7 +962,9 @@ Video Area
                 </div>
                 <div class="col-lg-6">
                     <div class="appointment-wrap3" style="background-color: var(--black-color2);">
-                        <h2 class="form-title" style="color: white;"><i class="fa-solid fa-comment"></i> Get In Touch! </h2>
+                        <h2 class="form-title" style="color: var(--theme-color);"><i class="fa-solid fa-comment"></i>
+                            Get In Touch!
+                        </h2>
                         <form action="mail.php" method="POST" class="appointment-form ajax-contact">
                             <div class="row">
                                 <div class="form-group style-border4 col-12">
@@ -1022,7 +1030,8 @@ Testimonial Area
                 <div class="col-xl-7">
                     <div class="title-area mb-40">
                         <span class="sub-title4">Testimonials</span>
-                        <h2 class="sec-title text-white"><i class="fa-solid fa-user"></i> What Our Clients Say</h2>
+                        <h2 class="sec-title text-white" style="color: var(--theme-color) !important;"><i
+                                class="fa-solid fa-users"></i> What Our Clients Say</h2>
                     </div>
                     <div class="swiper th-slider testi-slider6" id="testiSlider6"
                         data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"1"},"1200":{"slidesPerView":"1"}},"autoHeight": "true"}'>
@@ -1129,17 +1138,18 @@ Blog Area
     <section class="bg-smoke space overflow-hidden" id="blog-sec">
         <div class="container">
             <div class="row justify-content-md-between justify-content-center align-items-center">
-                <div class="col-xxl-5 col-xl-6 col-md-7">
-                    <div class="title-area text-md-start text-center">
+                <div class="col-12">
+                    <div class="title-area text-center">
                         <span class="sub-title4">News & Blog</span>
-                        <h2 class="sec-title">Latest News & Article <i class="fa-solid fa-newspaper"></i></h2>
+                        <h2 class="sec-title"><i class="fa-solid fa-newspaper"></i> Latest News & Article <i
+                                class="fa-solid fa-newspaper"></i></h2>
                     </div>
                 </div>
-                <div class="col-auto">
+                <!-- <div class="col-auto">
                     <div class="sec-btn">
                         <a href="blog.html" class="th-btn style-border2 th-btn-icon">Browse All Blog</a>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="slider-area">
                 <div class="swiper th-slider has-shadow" id="blogSlider4"
@@ -1296,7 +1306,8 @@ Blog Area
     </section><!--==============================
 	Footer Area
 ==============================-->
-    <footer class="footer-wrapper footer-layout2-2 footer-default bg-black">
+    <footer class="footer-wrapper footer-layout2-2 footer-default  bg-black2 background-image"
+        style="background-image: url(&quot;assets/img/bg/award-bg-1-1.png&quot;);">
         <div class="container">
             <div class="footer-wrap">
                 <div class="widget-area">
@@ -1386,7 +1397,7 @@ Blog Area
                 </div>
             </div>
         </div>
-        <div class="copyright-wrap bg-black2">
+        <div class="copyright-wrap bg-black">
             <div class="container">
                 <div class="row gy-3 align-items-center">
                     <div class="col-lg-6">
