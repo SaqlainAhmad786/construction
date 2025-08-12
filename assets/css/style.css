@@ -6677,13 +6677,13 @@ Version: 1.0.0
   --icon-size: 32px;
   border-radius: 50%;
   background: transparent;
-  border: 1px solid var(--smoke-color3);
+  border: 1px solid var(--theme-color);
   color: var(--white-color);
 }
 
 .th-social.style5 a:hover {
   background: var(--white-color);
-  color: var(--title-dark);
+  color: var(--theme-color);
 }
 
 .th-social.style6 a {
@@ -10507,7 +10507,7 @@ Version: 1.0.0
   font-size: 16px;
   background-color: transparent;
   border: none;
-  color: var(--body-color);
+  color: var(--theme-color);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -10761,14 +10761,14 @@ Version: 1.0.0
 }
 
 .th-widget-contact .info-box_text .icon {
-  color: var(--body-color);
+  color: var(--theme-color)!important;
   -webkit-box-flex: 0;
   -ms-flex: none;
   flex: none;
   width: 40px;
   height: 40px;
   line-height: 37px;
-  border: 1px solid var(--body-color);
+  border: 1px solid var(--theme-color);
   border-radius: 50%;
   text-align: center;
 }
