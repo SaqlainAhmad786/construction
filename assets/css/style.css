@@ -10973,7 +10973,7 @@ Version: 1.0.0
   font-weight: 400;
   font-size: 16px;
   font-family: var(--body-font);
-  color: var(--white-color)!important;
+  color: var(--white-color) !important;
 }
 
 .main-menu a:hover {
@@ -29997,7 +29997,7 @@ Version: 1.0.0
   position: absolute;
   inset: 126px 0 0 0;
   border-radius: 50px;
-  border: 1px solid var(--th-border-color2);
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .feature-card2 .box-img {
@@ -30018,7 +30018,6 @@ Version: 1.0.0
 .feature-card2 .box-title {
   letter-spacing: 0.02em;
   font-weight: 600;
-  color: var(--white-color);
 }
 
 .feature-card2:hover .box-img img {
@@ -34401,7 +34400,7 @@ Version: 1.0.0
   overflow: hidden;
   background: transparent;
   padding: 15px;
-  border: 1px solid var(--th-border-color2);
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .property-card6 .property-card-thumb {
@@ -34497,6 +34496,7 @@ Version: 1.0.0
 
 .property-card6 .property-btn-wrap .th-btn {
   padding: 9px 16px;
+  border-color: rgba(0, 0, 0, 0.3);
 }
 
 .property-card6:hover .property-card-thumb img {
