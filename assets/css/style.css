@@ -4934,9 +4934,9 @@ Version: 1.0.0
 }
 
 .th-btn.style4.th-btn-icon:after {
-  -webkit-filter: brightness(1) invert(1);
-  filter: brightness(1) invert(1);
-  color: var(--white-color);
+  /* -webkit-filter: brightness(1) invert(1);
+  filter: brightness(1) invert(1); */
+  color: black !important;
   width: 23px;
   height: 23px;
 }
@@ -10761,7 +10761,7 @@ Version: 1.0.0
 }
 
 .th-widget-contact .info-box_text .icon {
-  color: var(--theme-color)!important;
+  color: var(--theme-color) !important;
   -webkit-box-flex: 0;
   -ms-flex: none;
   flex: none;
@@ -27563,7 +27563,7 @@ Version: 1.0.0
 /*------------------- 1.1. Mixin -------------------*/
 /* Why Choose Us Area ---------------------------------- */
 .why-img-box2 {
-  border-radius: 0 0 50px 0;
+  border-radius: 0 50px 50px 0;
   overflow: hidden;
   margin-left: -315px;
   margin-top: -120px;
