@@ -34522,7 +34522,7 @@ Version: 1.0.0
 
 @media (max-width: 991px) {
   .property-card7 .property-card-thumb img {
-    height: 350px;
+    height: 260px !important;
   }
 }
 
@@ -34619,7 +34619,7 @@ Version: 1.0.0
 }
 
 .property-card7.style2 .property-card-thumb img {
-  height: 480px;
+  height: 380px;
 }
 
 .property-card7.style2 .property-card-title {
