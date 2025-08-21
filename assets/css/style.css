@@ -29311,7 +29311,7 @@ Version: 1.0.0
 .process-card2 .box-icon {
   width: 114px;
   height: 114px;
-  background: rgba(217, 217, 217, 0.1);
+  background: var(--theme-color);
   border-radius: 50%;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -29342,14 +29342,14 @@ Version: 1.0.0
 .process-card2 .box-number {
   font-size: 16px;
   font-weight: 500;
-  color: var(--white-color);
+  color: rgba(0, 0, 0, 0.5);
   display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 48px;
   padding: 7px 24px;
   margin: 0;
-  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .process-card2:hover .box-icon img {
