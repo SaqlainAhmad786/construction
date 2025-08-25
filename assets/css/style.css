@@ -8661,13 +8661,13 @@ Version: 1.0.0
 .widget_categories a,
 .wp-block-categories a {
   display: block;
-  background-color: var(--white-color);
+  background-color: var(--theme-color);
   margin: 0 0 14px;
   padding: 20.5px 25px;
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
-  color: var(--body-color);
+  color: var(--black-color);
   border-radius: 30px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   -webkit-transition: 0.4s ease-in-out;
@@ -11057,7 +11057,7 @@ Version: 1.0.0
   text-align: left;
   top: 100%;
   left: 0;
-  background-color: var(--white-color);
+  background-color: var(--black-color2);
   visibility: hidden;
   min-width: 230px;
   width: -webkit-max-content;
@@ -14617,8 +14617,8 @@ blockquote.has-very-dark-gray-color {
 
 .blog-single .blog-title a {
   color: var(--title-color);
-  background-image: -webkit-gradient(linear, right top, left top, from(var(--title-color)), to(var(--title-color)));
-  background-image: linear-gradient(to left, var(--title-color), var(--title-color));
+  background-image: -webkit-gradient(linear, right top, left top, from(var(--theme-color)), to(var(--theme-color)));
+  background-image: linear-gradient(to left, var(--theme-color), var(--theme-color));
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: 0 2px;
