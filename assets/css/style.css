@@ -44300,6 +44300,35 @@ Version: 1.0.0
   background-image: linear-gradient(to left, var(--theme-color3), var(--theme-color3));
 }
 
+.gallery {
+  column-count: 4;
+  /* Three columns */
+  column-gap: 16px;
+}
+
+.gallery img {
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 16px;
+  display: block;
+  break-inside: avoid;
+  /* Prevents breaking inside column */
+  border: 2px solid var(--theme-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .gallery {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    column-count: 1;
+  }
+}
+
 @media (max-width: 1299px) {
   .blog-card.style7 .blog-content .box-title {
     font-size: 22px;
