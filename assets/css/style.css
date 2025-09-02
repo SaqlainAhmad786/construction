@@ -44301,31 +44301,33 @@ Version: 1.0.0
 }
 
 .gallery {
-  column-count: 4;
-  /* Three columns */
-  column-gap: 16px;
+  max-width: 1296px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
 }
 
 .gallery img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  aspect-ratio: 3/2;
   margin-bottom: 16px;
-  border-radius: 16px;
-  display: block;
-  break-inside: avoid;
-  /* Prevents breaking inside column */
   border: 2px solid var(--theme-color);
 }
 
-/* Responsive adjustments */
 @media (max-width: 992px) {
   .gallery {
-    column-count: 2;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 600px) {
   .gallery {
-    column-count: 1;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
   }
 }
 
