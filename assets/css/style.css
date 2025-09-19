@@ -45304,4 +45304,9 @@ Version: 1.0.0
   margin-bottom: 25px;
 }
 
+.stickyCard{
+  position: sticky;
+  top: 8px;
+}
+
 /*# sourceMappingURL=style.css.map */
