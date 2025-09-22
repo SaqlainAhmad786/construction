@@ -25,6 +25,15 @@
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/jquery.datetimepicker.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        #heroVideo {
+            max-height: 280px;
+            background: transparent;
+            mix-blend-mode: multiply;
+            border-radius: 28px;
+            margin-bottom: 16px;
+        }
+    </style>
 
 </head>
 
@@ -184,7 +193,7 @@ Hero Area
         data-opacity="9">
         <div class="container">
             <div class="row gx-80 flex-row-reverse align-items-center">
-                <div class="col-xl-4">
+                <div class="col-xl-4 d-xl-block d-lg-none d-md-none d-sm-none d-none">
                     <div class="hero-thumb9-1">
                         <div class="img1">
                             <img src="assets/img/hero/hero_thumb_9_1.png" alt="img">
@@ -194,18 +203,21 @@ Hero Area
                 <div class="col-xl-8">
                     <div class="hero-style9">
                         <!-- <span class="sub-title4">Turning Lands Into Landmarks</span> -->
+                        <div class="d-flex justify-content-start">
+                            <video src="assets/vid/hero-vid.mp4" autoplay loop muted playsinline id="heroVideo"></video>
+                        </div>
                         <h1 class="hero-title text-theme">Mindscape Construction</h1>
                         <p style="color: #DFCAA0; font-size: 20px; font-weight: 600; text-transform: uppercase;">
                             <i>
                                 "Turning Lands Into Landmarks"
                             </i>
                         </p>
-                        <p class="hero-text" style="color: #F6E3BA;">At Mindscape Constructions, we bring your vision to
+                        <!-- <p class="hero-text" style="color: #F6E3BA;">At Mindscape Constructions, we bring your vision to
                             life with precision,
                             quality, and dedication. Based in Goa, we undertake all types of construction projects —
                             from luxury villas and residential complexes to commercial spaces and renovations. With a
                             commitment to on-time delivery and superior craftsmanship, we transform every project into a
-                            lasting landmark.</p>
+                            lasting landmark.</p> -->
                         <div class="btn-wrap">
                             <a href="contact.html" class="th-btn style4 th-btn-icon" style="color: black;">Let's Build
                                 Together</a>
